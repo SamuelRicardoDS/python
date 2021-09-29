@@ -56,15 +56,15 @@ async def calculete_expression(ctx, *expression): #sempre tem que passar o conte
     await ctx.send('Eis o resultado:' + str(response))
 
 
-""" @tasks.loop(hours=24)
+ @tasks.loop(hours=24)
 async def current_time(): #definir o que vai acontecer    
     now = datetime.datetime.now() #pega o horário atual
 
     now = now.strftime("%d/%m/%Y às %H:%M:%S")   #stringformattime pega dia mes e ano
 
-    channel = bot.get_channel(763952084294172722)
+    channel = bot.get_channel(ID do canal que tu quiser)
 
-    await channel.send("ESTUDEM!") """
+    await channel.send("ESTUDEM!") 
 
 
 bot.run('teu token') #rodando de fato o bot
