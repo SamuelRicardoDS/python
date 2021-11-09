@@ -1,1 +1,1 @@
-# é aqui que vou salvar os conteúdos sobre a linguagem python
+# everything I learn in college and on my own in python I'll put it here
